@@ -1,0 +1,14 @@
+<div>
+  <div class="title">
+    <input ng-model="name" placeholder="test ng-model." />
+    <span ng-bind="name"></span>
+  </div>
+  <div class="list">
+    <ul>
+      <li ng-repeat="list in lists.list | filter : name" class="itemList">
+        <div><a href="#/list/{{list.id}}" ng-bind="list.title"></a></div>
+        <div><span ng-bind="list.content"></span></div>
+      </li>
+    </ul>
+  </div>
+</div>

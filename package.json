@@ -1,0 +1,27 @@
+{
+  "name": "protractor-scenario",
+  "description": "protractor scenario",
+  "version": "0.0.0",
+  "keywords": [
+    "protractor",
+    "scenario",
+    "test",
+    "angular"
+  ],
+  "homepage": "https://github.com/navyxie/protractor-scenario",
+  "author": "navyxie",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navyxie/protractor-scenario.git"
+  },
+  "bugs": {
+    "url": "https://github.com/navyxie/protractor-scenario/issues"
+  },
+  "devDependencies": {
+    "protractor": "^2.5.1",
+    "http-server":"^0.8.5"  
+  }
+}
