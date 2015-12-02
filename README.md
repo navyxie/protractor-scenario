@@ -78,3 +78,11 @@ function isPage(expectUrl,waitUrl){
 	expect(browser.driver.getCurrentUrl()).toMatch(expectUrl);
 }
 ```
+
+### Note(scenario test include the following )
+
+- not angular page location to angular page
+- operation not angular page dom by protractor
+- angular page location to not angular page
+- operation angular page dom by protractor(by model,by css)
+- access angular scope variable by evaluate,(variable types can be general , object and function.) 

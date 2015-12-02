@@ -14,13 +14,8 @@ function initBaseUrlParams() {
 exports.config = {
   //测试参数，登录账号，密码和交易密码
   params:{
-    phone:'',
-    login_pwd:'',
-    trade_pwd:'',
-    testResult:{
-      success:0,
-      failure:0
-    }
+    username:'',
+    password:''
   },
 
   allScriptsTimeout: 60000,
@@ -31,7 +26,7 @@ exports.config = {
 
   capabilities:{
     //phantomjs,firefox,chrome
-    'browserName':'firefox'
+    'browserName':'chrome'
   },
 
   // capabilities: {
@@ -72,8 +67,8 @@ exports.config = {
     //     return /index/.test(url);
     //   });
     // }, 10000);
-  },
+  }
 
   //ng-app rootElement , selector class,id,tag
-  rootElement: 'html'
+  // rootElement: 'html'
 };
