@@ -1,4 +1,4 @@
-# protractor scenario test demo
+# protractor scenario test demo(protractor场景测试完整例子)
 
 ## install
 
