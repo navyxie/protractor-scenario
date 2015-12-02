@@ -3,6 +3,10 @@ var app = angular.module('ControllerApp',[]);
 app
 .controller('listCtrl',['$scope','List',function($scope,List){
 	$scope.name = 'karma-unit-demo';
+	$scope.testFn = function(){
+		$scope.name = '';
+		return true;
+	}
 	$scope.lists = List.get({id:'list'});
 }])
 .controller('contentCtrl',['$scope','List','$routeParams',function($scope,List,$routeParams){

@@ -11,7 +11,7 @@
   "homepage": "https://github.com/navyxie/protractor-scenario",
   "author": "navyxie",
   "scripts": {
-    "test": "protractor protractor.conf.js"
+    "test": "protractor protractor.conf.js --params.username=karma --params.password=test"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "protractor": "^2.5.1",
-    "http-server":"^0.8.5"  
+    "http-server": "^0.8.5",
+    "colors": "^1.1.2" 
   }
 }
