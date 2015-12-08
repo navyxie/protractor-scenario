@@ -23,7 +23,7 @@ PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install phantomjs
 
 1 http-server app
 
-2 protractor protractor.conf.js
+2 protractor protractor.conf.js --params.username=karma --params.password=test
 
 
 ## test note:

@@ -8,6 +8,11 @@ app
 		return true;
 	}
 	$scope.lists = List.get({id:'list'});
+	$scope.logout = function(){
+		if(window.confirm('logout?')){
+			window.location.href = '/page/login.html';
+		}
+	}
 }])
 .controller('contentCtrl',['$scope','List','$routeParams',function($scope,List,$routeParams){
 	var id = $routeParams.id;

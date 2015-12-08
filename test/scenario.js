@@ -94,4 +94,25 @@ describe('app scenario',function(){
 			browser.ignoreSynchronization = false;
 		});
 	});
+	//回到首页
+	describe('back to index',function(){
+		beforeAll(function(){
+			browser.get('/index.html#/');				
+		});
+		it('is index page',function(){
+			isPage(/index.html#\//);
+		});
+		it('logout dismiss',function(){
+			element(by.id('logoutBtn')).click().then(function(){
+				browser.switchTo().alert().dismiss();
+				isPage(/index.html#\//);
+			});
+		});
+		it('logout accept',function(){
+			element(by.id('logoutBtn')).click().then(function(){
+				browser.switchTo().alert().accept();
+				isPage(/page\/login.html/);
+			});
+		});
+	});
 })
