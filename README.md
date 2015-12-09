@@ -25,6 +25,13 @@ PHANTOMJS_CDNURL=http://cnpmjs.org/downloads npm install phantomjs
 
 2 protractor protractor.conf.js --params.username=karma --params.password=test
 
+## demo运行效果图
+
+![登录页](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMx8RToqqORPicQNcVklxGXicdR4qEyibbiae9SiawjJfC2croOeq7eFLPIW08I2CQaDbIDNuZuHUTLiaVDwA/0?wx_fmt=jpeg)
+![列表页](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMx8RToqqORPicQNcVklxGXicdRaLnI3m7BpmNwUKotZgflic9c2XaZt7ViaVVh8htibzXeFyAkpZuyiacmibg/0?wx_fmt=jpeg)
+![内容页](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMx8RToqqORPicQNcVklxGXicdR25sOZVsK4XoGjrJia4csLD2LSGFV4DibcZ0AzV1svjNEpRfexxtt1ianw/0?wx_fmt=jpeg)
+![结果页，非angular应用](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMx8RToqqORPicQNcVklxGXicdRJpDl5icmzlTOoAjpZtFF1icfrnxhsNlyn8I2qPlcf1HiczKLEQmnZkd2Q/0?wx_fmt=jpeg)
+![首页，退出登录](https://mmbiz.qlogo.cn/mmbiz/E7ia3F4UicMx8RToqqORPicQNcVklxGXicdR2f6PgAdf9EcvmO4AmrY015tEicv0un1tKyFfYwnjWMMdDOQWsibNZFYA/0?wx_fmt=jpeg)
 
 ## test note:
 
