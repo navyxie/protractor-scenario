@@ -25,7 +25,7 @@ describe('app scenario',function(){
 			element(by.id('username')).sendKeys(userParams.username);
 			element(by.id('password')).sendKeys(userParams.password);
 			element(by.id('loginBtn')).click().then(function(){
-				expect(browser.getTitle()).toEqual('index');
+				isPage(/index.html/);
 			});
 		});
 		afterAll(function(){
